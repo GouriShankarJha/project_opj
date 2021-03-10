@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Akaya Kanadaka', cursive;
+    
+}
+.container
+{
+   max-width:80%;
+   /* background-color: rgb(184, 234, 243); */
+   padding:34px;
+   margin:auto;
+}
+.container h1,p
+{
+   text-align:center;
+   font-size:40px;
+}
+p{
+   font-size: 16px;;
+}
+input, textarea
+{
+   display: block;
+   border: 2px solid black;
+   font-size:17px;
+   width:80%;
+   margin:10px 0px;
+   padding :5px;
+   border-radius:10px;
+   outline: none;
+   opacity: 0.5;
+   
+}
+form
+{
+   display: flex;
+   align-items:center;
+   justify-content:center;
+   flex-direction: column;
+
+}
+.btn
+{
+  border-radius: 20px;
+  /* color: azure; */
+  cursor:pointer;
+  background: rgb(103, 182, 235);
+  font-size:20px;
+  padding: 9px 12px;
+  border: 2px solid white;
+
+}
+.bg
+{
+   width:100%;
+   position:absolute;
+   z-index:-1;
+   opacity:1;
+}
+.submitmsg
+{
+   font-size:25px;
+    /* color: teal; */
+} 
+.dt1
+{
+   font-size:20px;
+   color: rgb(189, 238, 110);
+}

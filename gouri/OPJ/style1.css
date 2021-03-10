@@ -1,0 +1,13 @@
+*{
+    margin:0px;
+    padding :0px;
+    /* background-color:aqua; */
+
+}
+.container
+{
+    max-width:80%;
+    background-color: rgb(233, 169, 169);
+    padding:134px;
+    margin: 123px;
+}
